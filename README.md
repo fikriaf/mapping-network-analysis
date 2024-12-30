@@ -1,4 +1,4 @@
-# Signal Distribution Analysis for Provider in Banten
+# Signal Distribution Analysis for Provider Telkomsel in Banten, Indonesia
 
 ![Signal Distribution Analysis for Provider in Banten](result/result.png)
 
