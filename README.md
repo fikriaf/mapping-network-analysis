@@ -2,13 +2,14 @@
 
 ![Signal Distribution Analysis for Provider in Banten](result/result.png)
 
-This script is used to analyze and visualize the signal distribution of users from a provider in the Banten region, Indonesia. The process includes spatial data processing, tower position simulation, and network analysis using the Nearest Neighbor algorithm.
+This script is used to analyze and visualize the signal distribution of users from provider Telkomsel in the Banten region, Indonesia. The process includes spatial data processing, tower data from cellmapper.net, and implementation using network analysis and Nearest Neighbor algorithm.
 
 ## Key Features
 - **Spatial Data Processing**
-- **Tower Position Simulation**
-- **User Data Simulation**
+- **Tower Datas**
+- **User Data Telkomsel**
 - **Network Analysis**
+- **Nearest Neighbor**
 - **Visualization**
 
 ## Requirements
@@ -26,7 +27,7 @@ pip install geopandas pandas matplotlib networkx shapely
 ```
 ## Project Structure
 shape_Banten/indonesia_Province_level_1.shp: Shapefile for the Indonesian region.
-tower.py: Module for generating tower locations.
+tower.py: Module for extract data tower.
 sampel.py: Module for simulating user and signal data.
 
 ## How to Use
