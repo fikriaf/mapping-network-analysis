@@ -23,16 +23,16 @@ def data(tower_positions, jumlah_sampel):
                 distances = [Point(t).distance(Point(lon, lat)) for t in tower_positions]
                 min_distance = min(distances)
                 if min_distance < 0.08:
-                    signal_strength = 100
+                    signal_strength = random.randint(-60, -7)
                 elif min_distance < 0.3:
-                    signal_strength = 70
+                    signal_strength = random.randint(-76, -61)
                 else:
-                    signal_strength = 40
+                    signal_strength = random.randint(-110, -77)
                 
                 data_sinyal["latitude"].append(lat)
                 data_sinyal["longitude"].append(lon)
                 data_sinyal["signal_strength"].append(signal_strength)
-                print(f"[{_}] Latitude: {lat:.6f} Longitude: {lon:.6f} Signal Strength: {signal_strength}", end="\r")
+                print(f"[{_}] [Latitude: {lat:.6f} Longitude: {lon:.6f}] [ Signal Strength: {signal_strength} dBm ]", end="\r")
                 break    
     print(f"{jumlah_sampel} Pengguna Selesai Dibuat.                                                    ")
     return data_sinyal
