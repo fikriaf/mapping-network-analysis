@@ -2,7 +2,7 @@
 
 ![Signal Distribution Analysis for Provider in Banten](result/result.png)
 
-This script is used to analyze and visualize the signal distribution of users from a provider in the Banten region, Indonesia. The process includes spatial data processing, tower position simulation, and network analysis using the Minimum Spanning Tree (MST) algorithm.
+This script is used to analyze and visualize the signal distribution of users from a provider in the Banten region, Indonesia. The process includes spatial data processing, tower position simulation, and network analysis using the Nearest Neighbor algorithm.
 
 ## Key Features
 - **Spatial Data Processing**
